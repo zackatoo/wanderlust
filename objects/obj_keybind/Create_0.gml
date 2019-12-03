@@ -1,4 +1,5 @@
 /// @description Initalize keybinds
+persistent = true;
 
 // The keybind dictates which key to check for which action. 
 // The player can change these in the settings. 

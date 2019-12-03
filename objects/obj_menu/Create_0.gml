@@ -1,4 +1,5 @@
 /// @description 
+// This object has the basic logic to operate any menu
 
 buttons = undefined;
 buttonsWidth = 0;

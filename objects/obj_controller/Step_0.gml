@@ -8,10 +8,10 @@ if (active)
 		vert = -gamepad_axis_value(device, keybind.gamepad_vert);
 		horz = gamepad_axis_value(device, keybind.gamepad_horz);
 		
-		pressUp = !pressUp && vert < 0;
-		pressDown = !pressDown && vert > 0;
-		pressLeft = !pressLeft && horz > 0;
-		pressRight = !pressRight && horz < 0;
+		pressUp = gamepad_button_check_pressed(device, keybind.gamepad_up) || (!pressUp && vert < 0);
+		pressDown = gamepad_button_check_pressed(device, keybind.gamepad_down) || (!pressDown && vert > 0);
+		pressLeft = gamepad_button_check_pressed(device, keybind.gamepad_left) || (!pressLeft && horz > 0);
+		pressRight = gamepad_button_check_pressed(device, keybind.gamepad_right) || (!pressRight && horz < 0);
 		
 		pressEscape = gamepad_button_check_pressed(device, keybind.gamepad_escape);
 		pressEnter = gamepad_button_check_pressed(device, keybind.gamepad_enter);

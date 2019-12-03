@@ -1,3 +1,3 @@
 /// @description Transition to title
 
-room_goto(rm_title);
+transition(rm_title, TRANSITION.fade);

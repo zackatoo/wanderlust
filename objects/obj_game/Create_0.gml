@@ -2,3 +2,5 @@
 
 persistent = true;
 player = undefined;
+
+controller = undefined;
