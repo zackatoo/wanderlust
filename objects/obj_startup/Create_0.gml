@@ -9,5 +9,10 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_black);
 
+if (!file_exists(FN_SETTINGS))
+{
+	saveConfig(game);
+}
+
 // Transition to next room after one second
 alarm[1] = room_speed;

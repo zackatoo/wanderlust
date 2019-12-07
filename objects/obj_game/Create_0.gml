@@ -4,3 +4,5 @@ persistent = true;
 player = undefined;
 
 controller = undefined;
+
+saveMax = 0;
