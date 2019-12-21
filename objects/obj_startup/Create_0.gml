@@ -13,6 +13,10 @@ if (!file_exists(FN_SETTINGS))
 {
 	saveConfig(game);
 }
+else
+{
+	readConfig(game);
+}
 
 // Transition to next room after one second
 alarm[1] = room_speed;

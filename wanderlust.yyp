@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0fbdcb78-9215-4024-abd2-12faf79ffae7",
+            "Value": {
+                "id": "e4ac218a-f0df-48f5-ac72-d7e77fe1fbbd",
+                "resourcePath": "scripts\\readConfig\\readConfig.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "296a1ed2-220f-46a6-969e-313981448737",
             "Value": {
                 "id": "67e726ec-9261-4ec1-89f2-804608f1f9d6",
@@ -67,6 +75,14 @@
             "Value": {
                 "id": "6f5048b0-773b-4723-92df-3ea5b1175b31",
                 "resourcePath": "objects\\obj_button\\obj_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3fe8ccec-d178-494e-9604-348baafa7e04",
+            "Value": {
+                "id": "65c0c7bc-a1a2-4dc2-8734-f21d7efd23cf",
+                "resourcePath": "objects\\obj_save_highlight\\obj_save_highlight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -103,6 +119,14 @@
             }
         },
         {
+            "Key": "62c25afb-d245-4b2e-81c0-5e1c4c20634d",
+            "Value": {
+                "id": "d979d041-c764-4772-9ecb-8cae4e66d925",
+                "resourcePath": "rooms\\rm_saves\\rm_saves.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "63e1eb95-28e4-40b4-b7fc-3afbc439715f",
             "Value": {
                 "id": "1ff8b89c-ac7f-4349-9d66-180885075ece",
@@ -116,6 +140,14 @@
                 "id": "68aa8ac4-2827-452a-9155-51c5607bc2c6",
                 "resourcePath": "views\\70d9348e-83d1-48cf-98f5-c95221b318e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7118f947-a928-4c9e-9fcb-cb282e955372",
+            "Value": {
+                "id": "f6c7c844-6dc5-486c-beaf-bc5e8f8d54a8",
+                "resourcePath": "rooms\\rm_options\\rm_options.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -163,6 +195,14 @@
             "Value": {
                 "id": "230d9867-960a-4f8b-9a8b-1eb4bcb19f34",
                 "resourcePath": "objects\\obj_keybind\\obj_keybind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "83833da6-ef37-4c06-87e1-0112d99ba4ab",
+            "Value": {
+                "id": "514a1983-90e5-4f8c-aefc-d4a14e1541ed",
+                "resourcePath": "objects\\obj_menu_saves\\obj_menu_saves.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -361,7 +401,8 @@
     ],
     "script_order": [
         "a5ed5eee-1971-4419-8b0e-92b44a7bac0b",
-        "e94c734c-e44f-404d-a054-ac858d1a096e"
+        "e94c734c-e44f-404d-a054-ac858d1a096e",
+        "0fbdcb78-9215-4024-abd2-12faf79ffae7"
     ],
     "tutorial": ""
 }

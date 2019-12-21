@@ -4,7 +4,10 @@
 /// @param {real} transitionId The ID of the transition to use
 
 var transObjName = 0;
-switch(argument1)
+
+if (argument[1] == undefined) argument[1] = TRANSITION.fade; 
+
+switch(argument[1])
 {
 	case TRANSITION.fade: transObjName = obj_transition_fade; break;
 }
