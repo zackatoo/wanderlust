@@ -4,6 +4,7 @@
 // No not end with semi-colons
 #macro TRANSITION_TIME 60
 #macro FN_SETTINGS "settings.ini"
+#macro FN_HIGHLIGHTS "savehighlights.ini"
 
 // Variables which need to be accessed globally and changed at runtime are declared as globals
 

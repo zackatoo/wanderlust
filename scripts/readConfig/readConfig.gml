@@ -4,6 +4,6 @@
 
 game = argument0;
 ini_open(FN_SETTINGS);
-ini_read_real("saves", "savemax", game.saveMax);
+game.saveMax = ini_read_real("saves", "savemax", game.saveMax);
 
 ini_close();
